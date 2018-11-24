@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane minHeight="800.0" minWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="GUI.StatisticsWindowController">
+  <!-- TODO Add Nodes -->
+  <children>
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#dfdfdf" height="697.0" layoutX="0.0" layoutY="0.0" stroke="BLACK" strokeType="INSIDE" width="600.0" />
+    <Label layoutX="281.0" layoutY="311.0" text="Statistics" />
+    <Button layoutX="0.0" layoutY="697.0" mnemonicParsing="false" onAction="#pressQuitButton" prefHeight="105.0" prefWidth="600.0000999999975" text="Quit To Main Menu" />
+  </children>
+</AnchorPane>
